@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Sablon.master.cs" Inherits="Sablon" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            width: 800px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+   
+        <table align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <img alt="" class="auto-style2" src="images/banner.png" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Trebuchet MS" Font-Size="16px" ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px" Width="800px" Font-Bold="True">
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <Items>
+                            <asp:MenuItem Text="Anasayfa" Value="Anasayfa" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Osman Gazi" Value="Osman Gazi" NavigateUrl="~/OsmanGazi.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Orhan Gazi" Value="Orhan Gazi" NavigateUrl="~/OrhanGazi.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Fatih Sultan" Value="Fatih Sultan" NavigateUrl="~/Fatih.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Yavuz Sultan" Value="Yavuz" NavigateUrl="~/Yavuz.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Kanuni Süleyman" Value="Kanuni Süleyman" NavigateUrl="~/Kanuni.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Abdülhamit Han" Value="Abdulhamit Han" NavigateUrl="~/Abdulhamit.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/iletisim.aspx" Text="İletişim" Value="İletişim"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#B7AC8E" ForeColor="#625137" />
+                        <StaticMenuItemStyle HorizontalPadding="4px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="altyazi">Copyright © 2023 |  Polat GÖLCÜK | Tüm Hakları Saklıdır.</td>
+            </tr>
+        </table>
+    </form> 
+    </div>
+</body>
+</html>

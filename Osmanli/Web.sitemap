@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Anasayfa"  description="">
+        <siteMapNode url="OsmanGazi.aspx" title="Osman Gazi"  description="" />
+        <siteMapNode url="OrhanGazi.aspx" title="Orhan Gazi"  description="" />
+      <siteMapNode url="Fatih.aspx" title="Fatih Sultan Mehmet"  description="" />
+      <siteMapNode url="Yavuz.aspx" title="Yavuz Sultan Selim"  description="" />
+      <siteMapNode url="Kanuni.aspx" title="Kanuni Sultan Süleyman"  description="" />
+      <siteMapNode url="Abdulhamit.aspx" title="Abdülhamit Han"  description="" />
+    </siteMapNode>
+</siteMap>
